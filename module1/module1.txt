@@ -1,10 +1,33 @@
-=== RUN   TestModule1CheckEnvGOOS
-    TestModule1CheckEnvGOOS: module1_test.go:17: 'go env' does not work as expected
---- FAIL: TestModule1CheckEnvGOOS (0.00s)
-=== RUN   TestModule1CheckEnvGOOSInJson
-    TestModule1CheckEnvGOOSInJson: module1_test.go:27: it looks 'module1.json' is not correctly formatted as a JSON file
-    TestModule1CheckEnvGOOSInJson: module1_test.go:32: your 'module1.json' does not include valid values that we check
---- FAIL: TestModule1CheckEnvGOOSInJson (0.00s)
-FAIL
-exit status 1
-FAIL	github.com/pluralsight-projects/golang-cli-playbook/module1	0.185s
+set GO111MODULE=
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\MAPLT2\AppData\Local\go-build
+set GOENV=C:\Users\MAPLT2\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\MAPLT2\go
+set GOPRIVATE=
+set GOPROXY=https://proxy.golang.org,direct
+set GOROOT=c:\go
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLDIR=c:\go\pkg\tool\windows_amd64
+set GCCGO=gccgo
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=1
+set GOMOD=C:\LocalData\ps-projects\golang-cli-playbook\go.mod
+set CGO_CFLAGS=-g -O2
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-g -O2
+set CGO_FFLAGS=-g -O2
+set CGO_LDFLAGS=-g -O2
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -mthreads -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=C:\Users\MAPLT2\AppData\Local\Temp\go-build067106046=/tmp/go-build -gno-record-gcc-switches
