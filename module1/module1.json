@@ -1,0 +1,15 @@
+{"Time":"2020-05-19T16:26:26.7862174-04:00","Action":"run","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOS"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOS","Output":"=== RUN   TestModule1CheckEnvGOOS\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOS","Output":"    TestModule1CheckEnvGOOS: module1_test.go:17: 'go env' does not work as expected\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOS","Output":"--- FAIL: TestModule1CheckEnvGOOS (0.00s)\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"fail","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOS","Elapsed":0}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"run","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOSInJson"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOSInJson","Output":"=== RUN   TestModule1CheckEnvGOOSInJson\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOSInJson","Output":"    TestModule1CheckEnvGOOSInJson: module1_test.go:27: it looks 'module1.json' is not correctly formatted as a JSON file\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOSInJson","Output":"    TestModule1CheckEnvGOOSInJson: module1_test.go:32: your 'module1.json' does not include valid values that we check\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOSInJson","Output":"--- FAIL: TestModule1CheckEnvGOOSInJson (0.00s)\n"}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"fail","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Test":"TestModule1CheckEnvGOOSInJson","Elapsed":0}
+{"Time":"2020-05-19T16:26:26.7882209-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Output":"FAIL\n"}
+{"Time":"2020-05-19T16:26:26.7932459-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Output":"exit status 1\n"}
+{"Time":"2020-05-19T16:26:26.7932459-04:00","Action":"output","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Output":"FAIL\tgithub.com/pluralsight-projects/golang-cli-playbook/module1\t0.161s\n"}
+{"Time":"2020-05-19T16:26:26.7932459-04:00","Action":"fail","Package":"github.com/pluralsight-projects/golang-cli-playbook/module1","Elapsed":0.161}
